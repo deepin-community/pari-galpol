@@ -1,0 +1,50 @@
+pari-galpol (4.0-2) unstable; urgency=medium
+
+  * debian/control
+    - Build-depends on debhelper-compat (= 13).
+    - Bump Standards-Version to 4.6.0
+    - Add field Homepage: https://pari.math.u-bordeaux.fr/galpol
+    - Add field Rules-Requires-Root: no
+  * debian/compat: removed
+  * debian/rules: add missing targets. Closes: #999087
+  * debian/watch: really use https
+
+ -- Bill Allombert <ballombe@debian.org>  Sat, 13 Nov 2021 20:25:48 +0100
+
+pari-galpol (4.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Move to debhelper v9
+  * debian/control
+   - Mark Multi-Arch: foreign
+   - Bump Standards-Version to 4.1.4
+  * debian/watch: use https
+
+ -- Bill Allombert <ballombe@debian.org>  Mon, 25 Jun 2018 16:35:10 +0200
+
+pari-galpol (3.0-1) unstable; urgency=low
+
+  * New upstream release (all groups of order at most 129)
+  * Bump Standards-Version to 3.9.6.0
+
+ -- Bill Allombert <ballombe@debian.org>  Tue, 15 Sep 2015 16:00:44 +0200
+
+pari-galpol (2.0-1) unstable; urgency=low
+
+  * New upstream release (all groups of order at most 127)
+  * Compress data
+  * Bump Standards-Version to 3.9.5.0
+  * Remove useless conflict on obsolete libpari1
+  * Add file debian/watch
+
+ -- Bill Allombert <ballombe@debian.org>  Tue, 18 Feb 2014 23:35:23 +0100
+
+pari-galpol (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Bill Allombert <ballombe@debian.org>  Thu, 04 Aug 2011 17:37:27 +0200
+
+Local variables:
+mode: debian-changelog
+End:
